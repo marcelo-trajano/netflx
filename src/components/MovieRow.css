@@ -8,6 +8,7 @@
 
 .movieRow-listarea {
   overflow-x: hidden;
+  padding-left: 30px;
 }
 
 .movieRow-list {
@@ -22,4 +23,11 @@
 .movieRow-item img {
   display: inline-block;
   width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.movieRow-item img:hover {
+  transform: scale(1);
 }
